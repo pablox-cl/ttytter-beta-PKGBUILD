@@ -19,7 +19,12 @@ source=(http://www.floodgap.com/software/ffsl/license.txt
         $_pkgver.txt::http://www.floodgap.com/software/ttytter/beta/$_pkgver.txt)
 sha256sums=('42c576fcacb5bd6c8f8e64c479b0f8e4445c7e6c9ac013485c51b8f05f2352fd'
             'e2c16029f9342266f360d47f5edff938c930cf92b740ba77a9cbeaff55bea8f3')
+
 build() {
+  return 0
+}
+
+package() {
   cd "$srcdir"
   install -Dm755 $_pkgver.txt "$pkgdir/usr/bin/$pkgname"
   install -Dm644 license.txt "$pkgdir/usr/share/licenses/$pkgname/license.txt"
