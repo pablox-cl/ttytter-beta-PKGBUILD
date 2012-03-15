@@ -1,11 +1,9 @@
 # Maintainer: Pablo Olmos de Aguilera <pablo at glatelier dot org>
-# Contributor: TDY <tdy at gmx dot com>
-# Contributor: Roberto Viola <cagnulein at gmail dot com>
 
 pkgname=ttytter-beta
 pkgver=2.0.0b6
 _pkgver=beta
-pkgrel=1
+pkgrel=2
 pkgdesc="A multi-functional, command-line twitter client; beta version"
 arch=('any')
 url="http://www.floodgap.com/software/ttytter/beta/"
